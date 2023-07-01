@@ -1,0 +1,54 @@
+.s4 {
+  padding: 60px 0 120px;
+
+  &__title {
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    margin-bottom: 48px;
+  }
+
+  &__slider {
+  }
+}
+
+.slider {
+  &__item {
+    position: relative;
+    height: 262px;
+    max-width: 350px;
+    padding: 40px 30px;
+    border-radius: 8px;
+    background: url("../img/s4-item-bg1.png") center / cover no-repeat;
+
+    &--2 {
+      background: url("../img/s4-item-bg2.png") center / cover no-repeat;
+      color: #fff;
+    }
+
+    &--3 {
+      background: url("../img/s4-item-bg3.png") center / cover no-repeat;
+    }
+  }
+
+  &__content {
+  }
+
+  &__title {
+    font-weight: bold;
+    line-height: 145%;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    font-size: 18px;
+  }
+
+  &__btn {
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+  }
+}

@@ -1,0 +1,28 @@
+//<Шрифт по умолчанию>
+$fontFamily: "Rubik";
+
+//<Подключаем шрифты>
+//&display=swap&subset=cyrillic-ext
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext);
+// @import "components/fonts";
+
+//components
+@import "components/null";
+@import "components/global";
+// @import "components/popup";
+
+
+@import "main/s1";
+@import "main/s2";
+@import "main/s3";
+@import "main/s4";
+@import "main/s5";
+@import "main/s6";
+@import "main/s7";
+@import "main/s8";
+@import "main/s9";
+@import "main/s10";
+
+
+
+

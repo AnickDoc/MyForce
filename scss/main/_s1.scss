@@ -1,0 +1,53 @@
+.s1 {
+  padding-top: 24px;
+  background-image: url("../img/s1-bg.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__subtext {
+    color: #83839e;
+    margin-bottom: 48px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 140%;
+    margin-bottom: 20px;
+    max-width: 540px;
+    color: #010101;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    margin-bottom: 28px;
+    color: #010101;
+  }
+
+  &__btn {
+    margin-bottom: 60px;
+  }
+
+  &__links {
+    background: rgba(1, 1, 1, 0.02);
+  }
+
+  &__links-inner {
+    min-height: 63px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  &__link {
+    color: #43419e;
+    transition: all 0.6s;
+    border-radius: 4px;
+    padding: 4px 12px;
+
+    &:hover {
+      background: #DBDBE5;
+    }
+  }
+}

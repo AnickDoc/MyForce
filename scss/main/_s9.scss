@@ -1,0 +1,169 @@
+.s9 {
+  padding: 60px 0 120px;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-right: 24px;
+  }
+
+  &__top-link {
+    color: #43419e;
+    font-size: 16px;
+    position: relative;
+    padding-right: 24px;
+    text-decoration: underline;
+    transition: all 0.6s;
+
+    svg {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+
+      path {
+        transition: fill 0.6s;
+      }
+    }
+
+    &:hover {
+      color: #8481ff;
+
+      svg path {
+        fill: #8481ff;
+      }
+    }
+  }
+
+  &__inner {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 120px;
+  }
+
+  &__item {
+    background: #ffffff;
+    box-shadow: 0px 5px 16px rgba(40, 32, 70, 0.05);
+    border-radius: 8px;
+  }
+
+  &__item-date {
+    border-radius: 8px 8px 0 0;
+    min-height: 91px;
+    padding: 0 40px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #2ccd65 0%, #2096ec 99.96%);
+
+    &--color {
+      background: linear-gradient(252.47deg, #000000 -29.97%, #53179e 48.42%, #43419e 101.98%);
+    }
+  }
+
+  &__item-content {
+    padding: 40px;
+    min-height: 265px;
+    position: relative;
+  }
+
+  &__item-info {
+    color: #a1c6b9;
+    margin-bottom: 12px;
+    font-size: 14px;
+    display: inline-block;
+  }
+
+  &__item-title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 8px;
+    line-height: 145%;
+    color: #010101;
+  }
+
+  &__item-text {
+    color: #3d3d4b;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  &__item-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #43419e;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding-right: 24px;
+    text-decoration: underline;
+    user-select: none;
+    transition: all 0.6s;
+
+    svg {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+
+      path {
+        transition: fill 0.6s;
+      }
+    }
+
+    &:hover {
+      color: #8481ff;
+
+      svg path {
+        fill: #8481ff;
+      }
+    }
+  }
+
+  &__item--small {
+    flex: 0 0 350px;
+  }
+
+  &__box {
+    background: url("../img/s9-bg.jpg") center / cover no-repeat;
+    padding: 60px;
+    border-radius: 8px;
+  }
+
+  &__box-content {
+  }
+
+  &__box-logo {
+    margin-bottom: 48px;
+  }
+
+  &__box-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: #010101;
+    line-height: 130%;
+  }
+
+  &__box-text {
+    font-size: 18px;
+    margin-bottom: 35px;
+    max-width: 500px;
+    line-height: 145%;
+  }
+
+  &__box-btn {
+    svg {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,132 @@
+body {
+  background-color: #fff;
+  line-height: 145%;
+  font-size: 14px;
+  font-family: $fontFamily;
+  font-weight: 400;
+  font-style: normal;
+  color: #3d3d4b;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #43419e;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 32px;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.6s;
+  outline: transparent;
+  user-select: none;
+}
+
+.btn:hover {
+  background: #5c5abd;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+}
+
+.btn:active {
+  background: #2e2c83;
+  box-shadow: none;
+}
+
+.btn:disabled {
+  background: #b7b7be;
+  box-shadow: none;
+}
+
+.btn--red {
+  background: #e44e2b;
+
+  &:hover,
+  &:active {
+    background: #fc461d;
+  }
+}
+
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f3f9;
+  border: 1px solid #43419e;
+  border-radius: 12px;
+  padding: 12px 32px;
+  font-size: 16px;
+  text-align: center;
+  color: #43419e;
+  cursor: pointer;
+  transition: all 0.6s;
+  outline: transparent;
+  user-select: none;
+
+  &:after {
+    content: "+";
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background: #ede9ff;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #010101;
+  line-height: 130%;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #3d3d4b;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  margin-top: 28px;
+
+  li {
+    width: 8px;
+    height: 4px;
+    border-radius: 4px;
+    background: #a1c6b9;
+
+    button {
+      font-size: 0;
+      border: none;
+      background: none;
+    }
+  }
+}
+
+li.slick-active {
+  background: #43419e;
+  border-radius: 4px;
+  width: 28px;
+  height: 4px;
+}
